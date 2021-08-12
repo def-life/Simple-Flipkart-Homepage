@@ -1,0 +1,173 @@
+/* garibo ki flipkart */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:  Helvetica, sans-serif;
+}
+
+
+/* css variables defined here */
+:root {
+    --main-brand-color: #2874f0;
+    --discount-color: #388e3c;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer {
+    height: 12vh;
+    background-color: var(--main-brand-color);
+    color: white;
+    font-family:  Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+
+/* header code */
+
+header {
+    background-color: var(--main-brand-color);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+}
+.nav-bar-item a {
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.nav-bar-item {
+    padding: 0 26px;
+}
+
+.nav-bar-layer1 {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    padding: 0 27px;
+}
+
+.nav-bar-item a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-search {
+    width: 32vw;
+    height: 27px;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.75);
+   
+} 
+
+.search i {
+    color: var(--main-brand-color);
+    position: absolute;
+    right: 9px;
+    cursor: pointer;
+
+}
+
+
+/* main container code */
+
+.main-container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.slider {
+    margin: 30px 0;
+}
+
+.slider img {
+    width: 62.5vw;
+    height: 55.4vh;
+}
+
+.card-header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h2 {
+        display: inline-block;
+        margin-left: 25px;
+        margin-bottom: 12px;
+        box-sizing: border-box;
+}
+
+.card-header button {
+    margin-right: 44px;
+    display: inline-block;
+    padding: 10px 23px;
+    margin-bottom: 25px;
+    color: white;
+    background-color: var(--main-brand-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.card-item {
+    display: inline-block;
+}
+
+.card-item img {
+    width: 200px;
+}
+
+.m3 {
+    text-align: center;
+}
+
+.m3 h4 {
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
+.green {
+    color: var(--discount-color)
+}
+
+.m3 p {
+    margin-bottom: 6px;
+}
+
+.card-item img:hover {
+    scale: 1.05 1.05;
+}
+
+
+
+
